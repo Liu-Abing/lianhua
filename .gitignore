@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# 打包产物
+build/
+dist/
+*.spec
+
+# 本地调试产物
+shots/
+
+# 依赖目录（three.js 已内置在 vendor/）
+node_modules/
+
+# 本地临时的 git 运行时，不属于作品内容
+.mingit/
+
+# 旧版分层贴图实现：依赖的素材已移除，不纳入仓库
+index-css3d.html
+tools/
